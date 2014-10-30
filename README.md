@@ -18,3 +18,4 @@ Notes
   `client_secrets = Google::APIClient::ClientSecrets.load`   
   with   
   `client_secrets = Google::APIClient::ClientSecrets.new (MultiJson.load('<contents of client_secret.json>'))`
+* The reason I don't share my client is because I don't want to push the [limits set by google](https://developers.google.com/gmail/api/v1/reference/quota)
